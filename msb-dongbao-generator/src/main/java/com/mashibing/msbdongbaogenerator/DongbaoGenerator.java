@@ -41,10 +41,10 @@ public class DongbaoGenerator {
 		mpg.setGlobalConfig(gc);
 
 		DataSourceConfig dsc = new DataSourceConfig();
-		dsc.setUrl("jdbc:mysql://localhost:3306/msb_dongbao?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai");
+		dsc.setUrl("jdbc:mysql://10.1.20.89:3306/msb_dongbao?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai");
 		dsc.setDriverName("com.mysql.cj.jdbc.Driver");
 		dsc.setUsername("root");
-		dsc.setPassword("610527");
+		dsc.setPassword("123456");
 		dsc.setDbType(DbType.MYSQL);
 
 		mpg.setDataSource(dsc);

@@ -32,32 +32,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7415f203-281f-4c03-9b3a-ce4df078e674" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-generator/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-cart-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-cms-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-dictionary-api/msb-dongbao-dictionary-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-dictionary-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-oms-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-pay-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-pms-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-sms-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-manager-web/msb-dongbao-job/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-manager-web/msb-dongbao-portal-web/msb-dongbao-portal-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-manager-web/msb-dongbao-portal-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-manager-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-application/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-cart/msb-dongbao-cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-cart/msb-dongbao-cart.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-cms/msb-dongbao-cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-cms/msb-dongbao-cms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-pay/msb-dongbao-pay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-pay/msb-dongbao-pay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-sms/msb-dongbao-sms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-sms/msb-dongbao-sms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/mashibing/msbdongbaogenerator/DongbaoGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/mashibing/msbdongbaogenerator/DongbaoGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-generator/target/classes/com/mashibing/msbdongbaogenerator/DongbaoGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-generator/target/classes/com/mashibing/msbdongbaogenerator/DongbaoGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/controller/UmsMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/controller/UmsMemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/entity/UmsMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/entity/UmsMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/mapper/UmsMemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/mapper/UmsMemberMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/service/UmsMemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/service/UmsMemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/service/impl/UmsMemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,10 +94,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/controller/UmsMemberController.java">
+        <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/MsbDongbaoUmsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="468">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,10 +106,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/mapper/UmsMemberMapper.java">
+        <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/controller/UmsMemberController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="379">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,41 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/entity/UmsMember.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
+            <state relative-caret-position="185">
               <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/service/UmsMemberService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/service/impl/UmsMemberServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/test/java/com/msb/msbdongbaoums/mapper/UmsMemberMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,25 +132,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="396">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/MsbDongbaoUmsApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/test/java/com/msb/msbdongbaoums/MsbDongbaoUmsApplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
@@ -208,15 +150,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/mashibing/msbdongbaogenerator/MsbDongbaoGeneratorApplication.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/test/java/com/msb/msbdongbaoums/mapper/UmsMemberMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="540">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/mapper/UmsMemberMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/mashibing/msbdongbaogenerator/DongbaoGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -270,16 +243,16 @@
         <option value="$PROJECT_DIR$/msb-dongbao-generator/pom.xml" />
         <option value="$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/mashibing/msbdongbaogenerator/MsbDongbaoGeneratorApplication.java" />
         <option value="$PROJECT_DIR$/msb-dongbao-api/pom.xml" />
-        <option value="$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/mashibing/msbdongbaogenerator/DongbaoGenerator.java" />
         <option value="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/msb-dongbao-service/pom.xml" />
-        <option value="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/mapper/UmsMemberMapper.java" />
         <option value="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/test/java/com/msb/msbdongbaoums/MsbDongbaoUmsApplicationTest.java" />
         <option value="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/test/java/com/msb/msbdongbaoums/mapper/UmsMemberMapperTest.java" />
         <option value="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/service/UmsMemberService.java" />
         <option value="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/MsbDongbaoUmsApplication.java" />
+        <option value="$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/mashibing/msbdongbaogenerator/DongbaoGenerator.java" />
         <option value="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/mapper/UmsMemberMapper.java" />
       </list>
     </option>
   </component>
@@ -317,55 +290,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="msbdongbaomallparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="msb-dongbao-mall-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msbdongbaomallparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msb-dongbao-mall-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="msb-dongbao-generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msbdongbaomallparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msb-dongbao-mall-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="msb-dongbao-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msbdongbaomallparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msb-dongbao-mall-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="msb-dongbao-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msbdongbaomallparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msb-dongbao-mall-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="msb-dongbao-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msbdongbaomallparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msb-dongbao-mall-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="msb-dongbao-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msbdongbaogenerator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msbdongbaomallparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msb-dongbao-mall-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="msb-dongbao-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="msbdongbaomallparent" type="b2602c69:ProjectViewProjectNode" />
@@ -441,40 +371,6 @@
               <item name="msb-dongbao-ums" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msbdongbaoums" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msbdongbaomallparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msb-dongbao-mall-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="msb-dongbao-service" type="462c0819:PsiDirectoryNode" />
-              <item name="msb-dongbao-ums" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msbdongbaoums" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msbdongbaomallparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msb-dongbao-mall-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="msb-dongbao-service" type="462c0819:PsiDirectoryNode" />
-              <item name="msb-dongbao-ums" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msbdongbaoums" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msbdongbaomallparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msb-dongbao-mall-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="msb-dongbao-service" type="462c0819:PsiDirectoryNode" />
-              <item name="msb-dongbao-ums" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -520,6 +416,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,7 +426,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608802205528" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609142188738" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mashibingTeachear/msb-dongbao-mall/msb-dongbao-mall-parent-v1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -558,7 +455,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MsbDongbaoUmsApplicationTest.contextLoads">
+  <component name="RunManager" selected="JUnit.UmsMemberMapperTest.insertTest">
     <configuration name="DongbaoGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.msbdongbaogenerator.DongbaoGenerator" />
       <module name="msb-dongbao-generator" />
@@ -626,10 +523,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MsbDongbaoUmsApplicationTest.contextLoads" />
         <item itemvalue="JUnit.UmsMemberMapperTest.insertTest" />
-        <item itemvalue="Spring Boot.MsbDongbaoUmsApplication" />
         <item itemvalue="Application.DongbaoGenerator" />
+        <item itemvalue="JUnit.MsbDongbaoUmsApplicationTest.contextLoads" />
+        <item itemvalue="Spring Boot.MsbDongbaoUmsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -645,7 +542,8 @@
       <updated>1608715438918</updated>
       <workItem from="1608715442767" duration="1666000" />
       <workItem from="1608771481944" duration="14959000" />
-      <workItem from="1608800899729" duration="1134000" />
+      <workItem from="1608800899729" duration="5210000" />
+      <workItem from="1609134185946" duration="1798000" />
     </task>
     <task id="LOCAL-00001" summary="建立工程">
       <created>1608717034317</created>
@@ -667,15 +565,21 @@
     <history-entry file="UmsMemberMapperTest_insertTest - 2020.12.24 at 17h 24m 47s.xml">
       <configuration name="UmsMemberMapperTest.insertTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MsbDongbaoUmsApplicationTest_contextLoads - 2020.12.24 at 17h 27m 21s.xml">
+      <configuration name="MsbDongbaoUmsApplicationTest.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UmsMemberMapperTest_insertTest - 2020.12.28 at 13h 48m 06s.xml">
+      <configuration name="UmsMemberMapperTest.insertTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17759000" />
+    <option name="totallyTimeSpent" value="23633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29104477" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29424307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -685,7 +589,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.630597" visible="true" weight="0.28633407" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.630597" visible="true" weight="0.14859003" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -858,13 +762,6 @@
     <entry file="file://$PROJECT_DIR$/msb-dongbao-generator/msb-dongbao-generator.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -879,27 +776,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/mashibing/msbdongbaogenerator/DongbaoGenerator.java">
+    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/service/UmsMemberService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/mapper/UmsMemberMapper.java">
+    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/service/impl/UmsMemberServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/entity/UmsMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+        <state relative-caret-position="430">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -908,7 +795,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/mashibing/msbdongbaogenerator/MsbDongbaoGeneratorApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="396">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -918,54 +805,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/mashibing/msbdongbaogenerator/DongbaoGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/controller/UmsMemberController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="379">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/service/UmsMemberService.java">
+    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/entity/UmsMember.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/service/impl/UmsMemberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/MsbDongbaoUmsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/test/java/com/msb/msbdongbaoums/mapper/UmsMemberMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="185">
+          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -976,6 +846,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/mapper/UmsMemberMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/main/java/com/msb/msbdongbaoums/MsbDongbaoUmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msb-dongbao-service/msb-dongbao-ums/src/test/java/com/msb/msbdongbaoums/mapper/UmsMemberMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

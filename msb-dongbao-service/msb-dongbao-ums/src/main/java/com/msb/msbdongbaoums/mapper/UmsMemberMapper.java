@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * </p>
  *
  * @author 孙鹏
- * @since 2020-12-24
+ * @since 2020-12-28
  */
 @Repository
 public interface UmsMemberMapper extends BaseMapper<UmsMember> {

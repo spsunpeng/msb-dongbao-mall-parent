@@ -1,8 +1,8 @@
 spring:
   datasource:
     username: root
-    password: 610527
-    url: jdbc:mysql://localhost:3306/msb_dongbao?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    password: 123456
+    url: jdbc:mysql://10.1.20.89:3306/msb_dongbao?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
   profiles:
     active: dev
