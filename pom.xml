@@ -4,19 +4,41 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.1</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
     <groupId>com.msb</groupId>
-    <artifactId>msb-dongbao-mall-parent-v1</artifactId>
+    <artifactId>msb-dongbao-mall-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
-
     <modules>
         <module>msb-dongbao-generator</module>
+        <module>msb-dongbao-application</module>
         <module>msb-dongbao-api</module>
         <module>msb-dongbao-service</module>
     </modules>
 
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>
