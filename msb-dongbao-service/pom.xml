@@ -10,6 +10,7 @@
     </parent>
 
     <artifactId>msb-dongbao-service</artifactId>
+    <packaging>pom</packaging>
 
     <name>msb-dongbao-service</name>
     <description>Demo project for Spring Boot</description>
@@ -21,15 +22,5 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

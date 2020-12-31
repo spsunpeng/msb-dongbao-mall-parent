@@ -17,7 +17,6 @@
         <module name="msb-dongbao-pay-api" />
         <module name="msb-dongbao-pms-api" />
         <module name="msb-dongbao-portal-web" />
-        <module name="msb-dongbao-service" />
         <module name="msb-dongbao-sms-api" />
         <module name="msb-dongbao-ums" />
         <module name="msb-dongbao-ums-api" />
