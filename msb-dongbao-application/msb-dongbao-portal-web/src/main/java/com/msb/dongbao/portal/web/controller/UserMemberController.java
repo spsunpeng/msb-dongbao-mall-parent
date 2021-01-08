@@ -1,10 +1,10 @@
 package com.msb.dongbao.portal.web.controller;
 
+import com.msb.dongbao.ums.entity.dto.UmsMemberLoginParamDTO;
+import com.msb.dongbao.ums.entity.dto.UmsMemberRegisterParamDTO;
 import com.msb.dongbao.ums.service.UmsMemberService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author sunpeng
@@ -22,10 +22,14 @@ public class UserMemberController {
         return "hello dongbao";
     }
 
-    @GetMapping("/register")
-    public String register(){
-        umsMemberService.register();
-        return "register";
+    @PostMapping("/register")
+    public String register(@RequestBody UmsMemberRegisterParamDTO umsMemberRegisterParamDTO){
+        return umsMemberService.register(umsMemberRegisterParamDTO);
+    }
+
+    @PostMapping("/login")
+    public String login(@RequestBody UmsMemberLoginParamDTO umsMemberLoginParamDTO){
+        return umsMemberService.login(umsMemberLoginParamDTO);
     }
 
 }

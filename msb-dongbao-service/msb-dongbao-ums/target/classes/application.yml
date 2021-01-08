@@ -1,8 +1,8 @@
 spring:
   datasource:
     username: root
-    password: 123456
-    url: jdbc:mysql://10.1.20.89:3306/msb_dongbao?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    password: 610527
+    url: jdbc:mysql://127.0.0.1:3306/msb_dongbao?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
   profiles:
     active: dev
@@ -13,4 +13,8 @@ mybatis-plus:
     db-config:
       logic-delete-value: 1
       logic-not-delete-value: 0
-  mapper-locations: classpath:mapper/*.xml
+  #mapper-locations: classpath:UmsMemberMapper.xml
+  #mapper-locations: classpath*:mapper/xml/*.xml
+  mapper-locations:
+  - classpath*:/com/msb/dongbao/ums/mapper/xml/*.xml
+

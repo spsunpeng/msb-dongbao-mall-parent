@@ -14,5 +14,6 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface UmsMemberMapper extends BaseMapper<UmsMember> {
-
+    public UmsMember selectByName(String name);
+    public UmsMember selectById1(long id);
 }

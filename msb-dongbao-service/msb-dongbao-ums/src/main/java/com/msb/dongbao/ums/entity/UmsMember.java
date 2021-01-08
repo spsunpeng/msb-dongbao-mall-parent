@@ -24,7 +24,7 @@ public class UmsMember implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-      @TableId(value = "id", type = IdType.AUTO)
+    @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
     private String username;
@@ -54,14 +54,14 @@ public class UmsMember implements Serializable {
     /**
      * 创建时间
      */
-      @TableField(fill = FieldFill.INSERT)
-    private Date createTime;
+    @TableField(fill = FieldFill.INSERT)
+    private Date gmtCreate;
 
     /**
      * 跟新时间
      */
-      @TableField(fill = FieldFill.INSERT_UPDATE)
-    private Date updateTime;
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private Date gmtModified;
 
     /**
      * 最后登录时间

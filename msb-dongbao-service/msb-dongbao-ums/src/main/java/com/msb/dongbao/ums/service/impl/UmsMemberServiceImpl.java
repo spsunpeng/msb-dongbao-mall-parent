@@ -1,10 +1,16 @@
 package com.msb.dongbao.ums.service.impl;
 
 import com.msb.dongbao.ums.entity.UmsMember;
+import com.msb.dongbao.ums.entity.dto.UmsMemberLoginParamDTO;
+import com.msb.dongbao.ums.entity.dto.UmsMemberRegisterParamDTO;
 import com.msb.dongbao.ums.mapper.UmsMemberMapper;
 import com.msb.dongbao.ums.service.UmsMemberService;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import sun.security.util.Password;
 
 /**
  * <p>
@@ -20,18 +26,37 @@ public class UmsMemberServiceImpl implements UmsMemberService {
     @Autowired
     private UmsMemberMapper umsMemberMapper;
 
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
     @Override
-    public String register() {
+    public String register(UmsMemberRegisterParamDTO umsMemberRegisterParamDTO) {
 
-        UmsMember t = new UmsMember();
-        t.setUsername("cpf");
-        t.setStatus(0);
-        t.setPassword("1");
-        t.setNote("note");
-        t.setNickName("nick");
-        t.setEmail("email");
-        umsMemberMapper.insert(t);
+        UmsMember umsMember = new UmsMember();
+        BeanUtils.copyProperties(umsMemberRegisterParamDTO, umsMember);
 
-        return "success";
+        //密码脱敏
+       /*
+        BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
+        String encode = bCryptPasswordEncoder.encode(umsMember.getPassword());
+        umsMember.setPassword(encode);
+        */
+        String encode = passwordEncoder.encode(umsMember.getPassword());
+        umsMember.setPassword(encode);
+
+        umsMemberMapper.insert(umsMember);
+
+        return "register success";
+    }
+
+    @Override
+    public String login(UmsMemberLoginParamDTO umsMemberLoginParamDTO) {
+        UmsMember umsMember = umsMemberMapper.selectByName(umsMemberLoginParamDTO.getUsername());
+        if(umsMember == null){
+            return "用户不存在";
+        }else if(!passwordEncoder.matches(umsMemberLoginParamDTO.getPassword(), umsMember.getPassword())){
+            return "密码错误";
+        }
+        return "login success";
     }
 }

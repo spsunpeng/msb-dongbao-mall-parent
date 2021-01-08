@@ -18,12 +18,20 @@ public class UmsMemberMapperTest {
     @Test
     void insertTest(){
         UmsMember t = new UmsMember();
-        t.setUsername("cpf");
+        t.setUsername("222");
         t.setStatus(0);
         t.setPassword("1");
         t.setNote("note");
         t.setNickName("nick");
         t.setEmail("email");
         umsMemberMapper.insert(t);
+    }
+
+    @Test
+    void selectTest(){
+        UmsMember umsMember1 = umsMemberMapper.selectByName("sunpeng");
+        UmsMember umsMember3 = umsMemberMapper.selectById1(68);
+
+        System.out.println(umsMember1);
     }
 }

@@ -1,4 +1,4 @@
-package com.msb.dongbao.portal.web;
+package com.msb.dongbao.ums;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -7,19 +7,18 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-/**
- * @author sunpeng
- * @Date 2020-12-30 14:45
- */
 @SpringBootApplication(scanBasePackages = {"com.msb"})
 @MapperScan("com.msb.dongbao.ums.mapper")
-public class MsbDongbaoPortalWebApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(MsbDongbaoPortalWebApplication.class, args);
-    }
+public class MsbDongbaoUmsApplication {
 
-    @Bean
-    public PasswordEncoder passwordEncoder(){
-        return new BCryptPasswordEncoder();
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(MsbDongbaoUmsApplication.class, args);
+	}
+
+//	@Bean
+//	public PasswordEncoder passwordEncoder(){
+//		return new BCryptPasswordEncoder();
+//	}
+//
 }
+
