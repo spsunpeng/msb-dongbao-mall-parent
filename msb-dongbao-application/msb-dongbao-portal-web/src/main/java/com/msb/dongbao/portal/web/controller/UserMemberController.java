@@ -1,5 +1,6 @@
 package com.msb.dongbao.portal.web.controller;
 
+import com.msb.dongbao.common.base.result.ResultWrapper;
 import com.msb.dongbao.ums.entity.dto.UmsMemberLoginParamDTO;
 import com.msb.dongbao.ums.entity.dto.UmsMemberRegisterParamDTO;
 import com.msb.dongbao.ums.service.UmsMemberService;
@@ -23,8 +24,9 @@ public class UserMemberController {
     }
 
     @PostMapping("/register")
-    public String register(@RequestBody UmsMemberRegisterParamDTO umsMemberRegisterParamDTO){
-        return umsMemberService.register(umsMemberRegisterParamDTO);
+    public ResultWrapper register(@RequestBody UmsMemberRegisterParamDTO umsMemberRegisterParamDTO){
+        umsMemberService.register(umsMemberRegisterParamDTO);
+        return ResultWrapper.getSuccess().data(null).build();
     }
 
     @PostMapping("/login")

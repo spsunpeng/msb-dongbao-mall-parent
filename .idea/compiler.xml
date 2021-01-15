@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="msb-dongbao-cart-api" />
         <module name="msb-dongbao-cms-api" />
+        <module name="msb-dongbao-common-base" />
+        <module name="msb-dongbao-common-util" />
         <module name="msb-dongbao-dictionary-api" />
         <module name="msb-dongbao-generator" />
         <module name="msb-dongbao-job" />
@@ -25,9 +27,6 @@
     <bytecodeTargetLevel>
       <module name="msb-dongbao-cart" target="1.8" />
       <module name="msb-dongbao-cms" target="1.8" />
-      <module name="msb-dongbao-common" target="1.8" />
-      <module name="msb-dongbao-common-base" target="1.8" />
-      <module name="msb-dongbao-common-util" target="1.8" />
       <module name="msb-dongbao-dictionary" target="1.8" />
       <module name="msb-dongbao-mall-application" target="1.8" />
       <module name="msb-dongbao-oms" target="1.8" />
@@ -40,6 +39,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="msb-dongbao-cart-api" options="-parameters" />
       <module name="msb-dongbao-cms-api" options="-parameters" />
+      <module name="msb-dongbao-common-base" options="-parameters" />
+      <module name="msb-dongbao-common-util" options="-parameters" />
       <module name="msb-dongbao-dictionary-api" options="-parameters" />
       <module name="msb-dongbao-generator" options="-parameters" />
       <module name="msb-dongbao-job" options="-parameters" />

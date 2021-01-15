@@ -22,6 +22,7 @@
         <module>msb-dongbao-application</module>
         <module>msb-dongbao-api</module>
         <module>msb-dongbao-service</module>
+        <module>msb-dongbao-common</module>
     </modules>
 
     <properties>
