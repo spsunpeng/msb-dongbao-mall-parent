@@ -4,6 +4,8 @@ import lombok.Data;
 import lombok.ToString;
 
 import javax.annotation.sql.DataSourceDefinition;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 /**
  * @author sunpeng
@@ -13,9 +15,14 @@ import javax.annotation.sql.DataSourceDefinition;
 @ToString
 public class UmsMemberRegisterParamDTO {
 
+    @Size(min = 1, max = 8, message = "名字的长度必须在1到8之间")
     private String username;
+
+    @NotNull
     private String password;
+
     private String icon;
+
     private String email;
     private String nickName;
 }
