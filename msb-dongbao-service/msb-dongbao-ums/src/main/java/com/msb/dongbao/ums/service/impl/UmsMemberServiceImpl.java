@@ -1,5 +1,6 @@
 package com.msb.dongbao.ums.service.impl;
 
+import com.msb.dongbao.common.util.JwtUtil;
 import com.msb.dongbao.ums.entity.UmsMember;
 import com.msb.dongbao.ums.entity.dto.UmsMemberLoginParamDTO;
 import com.msb.dongbao.ums.entity.dto.UmsMemberRegisterParamDTO;
@@ -57,6 +58,8 @@ public class UmsMemberServiceImpl implements UmsMemberService {
         }else if(!passwordEncoder.matches(umsMemberLoginParamDTO.getPassword(), umsMember.getPassword())){
             return "密码错误";
         }
-        return "login success";
+
+        String token = JwtUtil.createToken(umsMember.getUsername());
+        return token;
     }
 }
