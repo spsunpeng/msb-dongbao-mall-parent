@@ -1,6 +1,9 @@
 package com.msb.dongbao.ums.service.impl;
 
+import com.msb.dongbao.common.base.enums.StatusErrorEnums;
+import com.msb.dongbao.common.base.result.ResultWrapper;
 import com.msb.dongbao.common.util.JwtUtil;
+import com.msb.dongbao.ums.entity.Response.UserMemberLoginResponse;
 import com.msb.dongbao.ums.entity.UmsMember;
 import com.msb.dongbao.ums.entity.dto.UmsMemberLoginParamDTO;
 import com.msb.dongbao.ums.entity.dto.UmsMemberRegisterParamDTO;
@@ -31,7 +34,7 @@ public class UmsMemberServiceImpl implements UmsMemberService {
     private PasswordEncoder passwordEncoder;
 
     @Override
-    public String register(UmsMemberRegisterParamDTO umsMemberRegisterParamDTO) {
+    public ResultWrapper register(UmsMemberRegisterParamDTO umsMemberRegisterParamDTO) {
 
         UmsMember umsMember = new UmsMember();
         BeanUtils.copyProperties(umsMemberRegisterParamDTO, umsMember);
@@ -47,19 +50,30 @@ public class UmsMemberServiceImpl implements UmsMemberService {
 
         umsMemberMapper.insert(umsMember);
 
-        return "register success";
+        return ResultWrapper.getSuccess().data(null).build();
     }
 
     @Override
-    public String login(UmsMemberLoginParamDTO umsMemberLoginParamDTO) {
+    public ResultWrapper login(UmsMemberLoginParamDTO umsMemberLoginParamDTO) {
         UmsMember umsMember = umsMemberMapper.selectByName(umsMemberLoginParamDTO.getUsername());
         if(umsMember == null){
-            return "用户不存在";
+            return ResultWrapper.builder().code(StatusErrorEnums.USER_EMPTY.getCode()).msg(StatusErrorEnums.USER_EMPTY.getMsg()).build();
         }else if(!passwordEncoder.matches(umsMemberLoginParamDTO.getPassword(), umsMember.getPassword())){
-            return "密码错误";
+            return ResultWrapper.builder().code(StatusErrorEnums.PASSWORD_ERROR.getCode()).msg(StatusErrorEnums.PASSWORD_ERROR.getMsg()).build();
         }
 
+        UserMemberLoginResponse userMemberLoginResponse = new UserMemberLoginResponse();
         String token = JwtUtil.createToken(umsMember.getUsername());
-        return token;
+        userMemberLoginResponse.setToken(token);
+        umsMember.setPassword("");
+        userMemberLoginResponse.setUmsMember(umsMember);
+
+        return ResultWrapper.getSuccess().data(userMemberLoginResponse).build();
+    }
+
+    @Override
+    public ResultWrapper edit(UmsMember umsMember) {
+        umsMemberMapper.updateById(umsMember); //有问题
+        return ResultWrapper.getSuccess().data(umsMember).build();
     }
 }

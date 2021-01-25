@@ -1,22 +1,18 @@
 package com.msb.dongbao.ums.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import java.util.Date;
-import com.baomidou.mybatisplus.annotation.Version;
-import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
-import java.io.Serializable;
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import java.io.Serializable;
+import java.util.Date;
+
 /**
- * <p>
- * 后台用户表
- * </p>
- *
- * @author 孙鹏
- * @since 2020-12-28
+ * @author sunpeng
+ * @Date 2021-01-25 15:07
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
