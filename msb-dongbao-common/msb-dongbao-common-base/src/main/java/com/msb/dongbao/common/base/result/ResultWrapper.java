@@ -18,11 +18,11 @@ public class ResultWrapper<T> implements Serializable {
     private String msg;
     private T data;
 
-    public static ResultWrapper.ResultWrapperBuilder getSuccess(){
+    public static ResultWrapper.ResultWrapperBuilder getSuccessBuilder(){
         return ResultWrapper.builder().code(StatusErrorEnums.SUCCESS.getCode()).msg(StatusErrorEnums.SUCCESS.getMsg());
     }
 
-    public static ResultWrapper.ResultWrapperBuilder getFail(){
+    public static ResultWrapper.ResultWrapperBuilder getFailBuilder(){
         return ResultWrapper.builder().code(StatusErrorEnums.FAIL.getCode()).msg(StatusErrorEnums.FAIL.getMsg());
     }
 

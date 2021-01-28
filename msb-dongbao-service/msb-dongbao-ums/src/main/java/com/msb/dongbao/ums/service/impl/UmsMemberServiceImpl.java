@@ -50,16 +50,16 @@ public class UmsMemberServiceImpl implements UmsMemberService {
 
         umsMemberMapper.insert(umsMember);
 
-        return ResultWrapper.getSuccess().data(null).build();
+        return ResultWrapper.getSuccessBuilder().data(null).build();
     }
 
     @Override
     public ResultWrapper login(UmsMemberLoginParamDTO umsMemberLoginParamDTO) {
         UmsMember umsMember = umsMemberMapper.selectByName(umsMemberLoginParamDTO.getUsername());
         if(umsMember == null){
-            return ResultWrapper.builder().code(StatusErrorEnums.USER_EMPTY.getCode()).msg(StatusErrorEnums.USER_EMPTY.getMsg()).build();
+            return ResultWrapper.getFailBuilder().code(StatusErrorEnums.USER_EMPTY.getCode()).msg(StatusErrorEnums.USER_EMPTY.getMsg()).build();
         }else if(!passwordEncoder.matches(umsMemberLoginParamDTO.getPassword(), umsMember.getPassword())){
-            return ResultWrapper.builder().code(StatusErrorEnums.PASSWORD_ERROR.getCode()).msg(StatusErrorEnums.PASSWORD_ERROR.getMsg()).build();
+            return ResultWrapper.getFailBuilder().code(StatusErrorEnums.PASSWORD_ERROR.getCode()).msg(StatusErrorEnums.PASSWORD_ERROR.getMsg()).build();
         }
 
         UserMemberLoginResponse userMemberLoginResponse = new UserMemberLoginResponse();
@@ -68,12 +68,12 @@ public class UmsMemberServiceImpl implements UmsMemberService {
         umsMember.setPassword("");
         userMemberLoginResponse.setUmsMember(umsMember);
 
-        return ResultWrapper.getSuccess().data(userMemberLoginResponse).build();
+        return ResultWrapper.getSuccessBuilder().data(userMemberLoginResponse).build();
     }
 
     @Override
     public ResultWrapper edit(UmsMember umsMember) {
-        umsMemberMapper.updateById(umsMember); //有问题
-        return ResultWrapper.getSuccess().data(umsMember).build();
+        umsMemberMapper.updateById(umsMember);
+        return ResultWrapper.getSuccessBuilder().data(umsMember).build();
     }
 }

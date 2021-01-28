@@ -1,5 +1,6 @@
 package com.msb.dongbao.portal.web.advice;
 
+import com.msb.dongbao.common.base.exception.TokenException;
 import com.msb.dongbao.common.base.result.ResultWrapper;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -16,5 +17,10 @@ public class GlobalExceptionHandle {
     @ExceptionHandler(ArithmeticException.class)
     public ResultWrapper customException(){
         return ResultWrapper.builder().code(301).msg("服务异常").build();
+    }
+
+    @ExceptionHandler(TokenException.class)
+    public ResultWrapper loginException(Exception e){
+        return ResultWrapper.getFailBuilder().code(501).msg(e.getMessage()).build();
     }
 }

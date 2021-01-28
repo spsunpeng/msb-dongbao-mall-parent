@@ -1,5 +1,6 @@
 package com.msb.dongbao.portal.web.controller;
 
+import com.msb.dongbao.common.base.annotations.TokenCheck;
 import com.msb.dongbao.common.base.result.ResultWrapper;
 import com.msb.dongbao.common.util.JwtUtil;
 import com.msb.dongbao.ums.entity.UmsMember;
@@ -39,6 +40,7 @@ public class UserMemberController {
     }
 
     @PostMapping("/edit")
+    @TokenCheck(required = true)
     public ResultWrapper edit(@RequestBody UmsMember umsMember){
         return umsMemberService.edit(umsMember);
     }
